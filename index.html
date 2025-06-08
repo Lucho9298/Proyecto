@@ -23,9 +23,9 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 50px;
-            height: 50px;
-            border-radius: 60%;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
             background-color: #2563eb; /* Un tono de azul */
             color: white;
             font-size: 24px;
@@ -42,14 +42,14 @@
             <h1 class="text-3xl md:text-4xl font-bold text-gray-800">
                 <span class="logo-icon">➕</span> Agendamiento Salud Bogotá
             </h1>
-            <p class="text-gray-500 text-lg mt-2">Simplificando tus citas médicas desde la comodidad de tu hogar</p>
+            <p class="text-gray-500 text-lg mt-2">Simplificando tus citas médicas</p>
         </header>
 
         <nav class="flex justify-center mb-8 bg-gray-100 rounded-md p-1 shadow-sm">
-            <button id="showSchedule" class="px-6 py-2 rounded-md font-medium text-gray-700 bg-black shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-colors duration-200">
+            <button id="showSchedule" class="px-6 py-2 rounded-md font-medium text-gray-700 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-colors duration-200">
                 Agendar Nueva Cita
             </button>
-            <button id="showAppointments" class="px-6 py-2 rounded-md font-medium text-black-500 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-colors duration-200 ml-2">
+            <button id="showAppointments" class="px-6 py-2 rounded-md font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-colors duration-200 ml-2">
                 Mis Citas
             </button>
         </nav>
@@ -89,7 +89,7 @@
                         <option>Dr. David Ruiz (Odontología)</option>
                     </select>
                 </div>
-                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition-colors duration-200">
+                <button type="submit" class="w-full text-white font-bold py-3 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#FC913A] focus:ring-offset-2 transition-colors duration-200" style="background-color: #FC913A; hover:background-color: #FC913A;">
                     Confirmar Cita
                 </button>
             </form>
@@ -103,24 +103,24 @@
                     <p class="font-bold text-gray-800">Medicina General con Dr. Carlos Gómez</p>
                     <p class="text-gray-600 text-sm">Fecha: 15/07/2025 | Hora: 10:00 AM</p>
                     <div class="flex justify-end gap-2 mt-3">
-                        <button class="px-3 py-1 text-sm rounded-md bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">Reprogramar</button>
-                        <button class="px-3 py-1 text-sm rounded-md bg-red-500 text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400">Cancelar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#F9D423] focus:ring-offset-2" style="background-color: #F9D423; hover:background-color: #F9D423;">Reprogramar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#FF4E50] focus:ring-offset-2" style="background-color: #FF4E50; hover:background-color: #FF4E50;">Cancelar</button>
                     </div>
                 </div>
                 <div class="bg-gray-50 p-4 rounded-md shadow-sm border border-gray-200">
                     <p class="font-bold text-gray-800">Pediatría con Dra. Ana López</p>
                     <p class="text-gray-600 text-sm">Fecha: 22/07/2025 | Hora: 03:30 PM</p>
                     <div class="flex justify-end gap-2 mt-3">
-                        <button class="px-3 py-1 text-sm rounded-md bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">Reprogramar</button>
-                        <button class="px-3 py-1 text-sm rounded-md bg-red-500 text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400">Cancelar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#F9D423] focus:ring-offset-2" style="background-color: #F9D423; hover:background-color: #F9D423;">Reprogramar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#FF4E50] focus:ring-offset-2" style="background-color: #FF4E50; hover:background-color: #FF4E50;">Cancelar</button>
                     </div>
                 </div>
                 <div class="bg-gray-50 p-4 rounded-md shadow-sm border border-gray-200">
                     <p class="font-bold text-gray-800">Odontología con Dr. David Ruiz</p>
                     <p class="text-gray-600 text-sm">Fecha: 01/08/2025 | Hora: 09:00 AM</p>
                     <div class="flex justify-end gap-2 mt-3">
-                        <button class="px-3 py-1 text-sm rounded-md bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400">Reprogramar</button>
-                        <button class="px-3 py-1 text-sm rounded-md bg-red-500 text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400">Cancelar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#F9D423] focus:ring-offset-2" style="background-color: #F9D423; hover:background-color: #F9D423;">Reprogramar</button>
+                        <button class="px-3 py-1 text-sm rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#FF4E50] focus:ring-offset-2" style="background-color: #FF4E50; hover:background-color: #FF4E50;">Cancelar</button>
                     </div>
                 </div>
                 <p class="text-center text-gray-500 mt-6">¡No tienes más citas programadas!</p>
@@ -128,7 +128,7 @@
         </section>
 
         <footer class="text-center mt-8 text-gray-400 text-sm">
-            [Información de Contacto:3216549870 / Derechos Reservados]
+            [Información de Contacto: 3216549870 / Derechos Reservados]
         </footer>
     </div>
 
